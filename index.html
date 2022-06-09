@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0f4f8;
+      }
+
+/* -------------image---------------- */
+      .photo img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:auto;
+        width: 100%;
+        
+      }
+/* -------------content---------------- */
+      .lettercon {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 95%;
+        margin: 1.5rem 0 ;
+        background-color: white;
+        box-shadow: rgba(255, 255, 255, 0.606) 0px 8px 24px;
+        border-radius: 25px;
+      }
+      
+      .message {
+        font-family: "Poppins", sans-serif;
+        font-size: 0.8rem;
+        color: rgb(90, 89, 89);
+        font-weight: lighter;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .ques {         
+        padding: 0.2rem;
+        word-spacing: 2px;
+        font-size: 1.3rem;
+        margin: 2rem 0 1.3rem 0 ;
+        font-weight: bold;       
+        color: #14317A;
+      }
+      .ques > span{
+        color: #f5a300;
+        font-family: 'Raleway', sans-serif;
+        
+        font-size: 1.6rem;
+        font-weight: lighter;
+      }
+     
+  /* ----introducing--- */
+      #bold {
+        font-weight: bold;
+        font-size: 0.9rem;
+      }
+      .text {
+        color: #14317A;
+         font-size: 1.4rem;
+         display: flex;
+         /* text-decoration: underline; */
+         border-bottom: 2px dotted #486581;
+         flex-direction: column;
+         align-items: center;
+      }
+      ul {
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #486581;
+        margin-bottom: 1rem;
+      }
+      ul li {
+        display: flex;
+        /* color: #f0f4f8; */
+        color: white; 
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #f0f4f8;
+        padding: 0.8rem;
+        border-radius: 23px;        
+        margin-bottom: 1rem;
+        list-style: none;
+      }
+      li:nth-child(1){
+        background-color: #01579B;
+      }
+      li:nth-child(2){
+        background-color: #0277BD;
+      }
+      li:nth-child(3){
+        background-color: #0288D1;
+      }
+      li:nth-child(4){
+        background-color: #039BE5;
+      }
+      li:nth-child(5){
+        background-color: #03A9F4;
+      }
+      li:nth-child(6){
+        background-color: #29B6F6;
+      }      
+      li:nth-child(7){
+        /* background-color: #8D86DF; */
+        background-color: #4FC3F7;
+      }
+      li:nth-child(8){
+        /* background-color: #8680dd; */
+        background-color: #77d2f7;
+      }
+      li:nth-child(9){
+        /* background-color: #8D86DF; */
+        background-color: #94d5f3;
+      }
+    /* ---------message-------- */
+
+      .mes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        color: #486581;
+        margin: 2rem 0;
+        margin-bottom: 0;
+      }
+      p .uppara {
+        font-size: 1.7rem;
+        margin: auto;
+        font-weight: bolder;
+        /* color: #f5a300; */
+        color: #14317A;
+      }
+      p .para {
+        margin: auto;
+        color: #14317A;
+      }
+      .size {
+        font-size: 0.9rem;
+        width: 90%;
+        font-weight: lighter;
+        text-align: center;;
+        margin: 1rem auto;
+        color: #14317A;
+      }
+    
+      .size > span:nth-child(1){
+         font-size: 1.3rem;
+         font-weight: bold;
+         /* color:#2AAEE8; */
+      }
+      .size > span:nth-child(2){
+         font-size: 1.3rem;
+         font-weight: bold;
+         /* color:#6FC85D; */
+      }
+      .size > span:nth-child(3){
+         font-size: 1.3rem;
+         font-weight: bold;
+         /* color:#F9D342; */
+      }
+     /* --------button-------- */
+      div > a {
+        text-decoration: none;
+      }      
+      .btn {
+        display: flex;
+        margin: 1rem auto;
+        margin-bottom: 2rem;
+        color: #f0f4f8;
+        padding: 0.7rem;
+        font-size: 1rem;      
+        background-color: #f5a300;
+        border-radius: 3px;
+        border: 2px solid #f5a300;      
+      }
+      .btn:hover {
+        cursor: pointer;
+        background-color: #f0f4f8;        
+        color: #f5a300;        
+        transition: all 0.5s ease-out;
+      }
+     
+
+      
+
+      /* span > a {
+        color: black;
+        font-weight: bold;
+        text-decoration: underline;
+      } */
+
+      section > h4 {
+        margin-bottom: 2rem;
+      }
+
+      section h4 {
+        font-weight: bold;
+      }
+      
+      
+      
+      
+    </style>
+    <title>E Gurukul Template</title>
+  </head>
+
+  <body>
+    
+    <!-- --------------------------photo------------------- -->
+    <section class="photo">
+      <div id="photoimg">
+        <img src="image1.png" alt="" />
+      </div>
+    </section>
+    <!-- -------------------------letter---------------------- -->
+    <div class="lettercon">
+      <div class="container">
+        <section class="message">
+          
+            <p class="ques">Why do we call it an <span>Experience </span>? </p>
+            <div id="bold">
+              <p class="text">Introducing</p>
+              <ul>
+                <li>DUAL Language Videos</li>
+                <li>Multiple Logins</li>
+                <li>Quizzieee</li>
+                <li>Integrated Video Lectures</li>
+                <li>Updated Comprehensive Question Bank</li>
+                <li>NEXT Ready Tests</li>
+                <li>
+                  Concept Videos For 1st  & 2nd Proff
+                </li>
+                <li>One Click Course Change</li>
+                <li>24/7 Care for Students</li>
+              </ul>
+            </div>
+          
+          <p class="mes">
+            <span class="uppara">AWESTRUCK YET???</span>
+            <span class="para">Wait, we have more...</span>
+            <br />
+            <span class="size">
+              We present you the
+              <span> CRAZIEST</span>, 
+              <span> MADDEST</span>, 
+              <span> ULTRA LOW PRICES</span>
+              .</span>
+          </p>
+        </section>
+        <!-- button -->
+        <div>
+          <a href="https://www.egurukulapp.com/"
+            ><button class="btn">Enroll Now</button></a
+          >
+        </div>
+        <!-- /button -->
+      </div>
+    </div>
+  </body>
+</html>
